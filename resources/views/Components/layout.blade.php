@@ -10,10 +10,15 @@
 
 <body>
     <nav>
-        <a href="/">Home</a>
-        <a href="/about">About</a>
+        {{-- Short term of extend--}}
+        <x-nav-link href="/">Home</x-nav-link>
+        <x-nav-link href="/about" style="color:green">About</x-nav-link>
+        <x-nav-link href="/contact">Contact</x-nav-link>
+        <x-nav-link href="meet_the_team">Teams</x-nav-link>
+        {{-- <a href="/">Home</a>
+        {{-- <a href="/about">About</a>
         <a href="/contact">Contact</a>
-        <a href="/meet_the_team">Teams</a>
+        <a href="/meet_the_team">Teams</a> --}}
     </nav>
     {{-- <h1>Hello From Layout Page</h1> --}}
 
