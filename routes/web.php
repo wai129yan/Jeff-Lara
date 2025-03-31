@@ -27,3 +27,7 @@ Route::get ('/contact',function(){
 Route::get ('/meet_the_team',function(){
     return view('meet_the_team');
 });
+
+Route::get ('/service',function(){
+    return view('service');
+});
